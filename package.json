@@ -1,0 +1,18 @@
+{
+  "name": "kayra-export-case2",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:home": "npm run dev --workspace=packages/home",
+    "dev:cart": "npm run dev --workspace=packages/cart",
+    "build:home": "npm run build --workspace=packages/home",
+    "build:cart": "npm run build --workspace=packages/cart"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
